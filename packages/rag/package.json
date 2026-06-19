@@ -1,0 +1,16 @@
+{
+  "name": "@kyleai/rag",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "echo 'No rag tests yet'"
+  },
+  "dependencies": {
+    "@kyleai/core": "0.0.0"
+  },
+  "exports": "./src/index.ts"
+}

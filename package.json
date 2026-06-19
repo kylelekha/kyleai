@@ -1,0 +1,21 @@
+{
+  "name": "kyleai",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Clean-room local-first AI research notebook scaffold.",
+  "type": "module",
+  "packageManager": "npm@10",
+  "scripts": {
+    "dev": "npm run dev -w @kyleai/desktop",
+    "build": "npm run build --workspaces",
+    "check": "npm run check --workspaces",
+    "test": "npm run test --workspaces"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
